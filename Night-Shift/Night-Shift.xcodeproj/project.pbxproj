@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B2E22C7223FA83BC00C691E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22C7123FA83BC00C691E5 /* AppDelegate.swift */; };
-		B2E22C7423FA83BC00C691E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22C7323FA83BC00C691E5 /* ContentView.swift */; };
 		B2E22C7623FA83BD00C691E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E22C7523FA83BD00C691E5 /* Assets.xcassets */; };
 		B2E22C7923FA83BD00C691E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E22C7823FA83BD00C691E5 /* Preview Assets.xcassets */; };
 		B2E22C7C23FA83BD00C691E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E22C7A23FA83BD00C691E5 /* Main.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		B2E22C6E23FA83BC00C691E5 /* Night-Shift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night-Shift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E22C7123FA83BC00C691E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2E22C7323FA83BC00C691E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2E22C7523FA83BD00C691E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2E22C7823FA83BD00C691E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2E22C7B23FA83BD00C691E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +73,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B20B6F9D23FB100400C6DF2D /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		B20B6F9E23FB101200C6DF2D /* Applicaton */ = {
+			isa = PBXGroup;
+			children = (
+				B20B6FA023FB105B00C6DF2D /* Main */,
+			);
+			path = Applicaton;
+			sourceTree = "<group>";
+		};
+		B20B6F9F23FB102B00C6DF2D /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		B20B6FA023FB105B00C6DF2D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B2E22C7123FA83BC00C691E5 /* AppDelegate.swift */,
+				B2E22C7A23FA83BD00C691E5 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		B2E22C6523FA83BC00C691E5 = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +127,10 @@
 		B2E22C7023FA83BC00C691E5 /* Night-Shift */ = {
 			isa = PBXGroup;
 			children = (
-				B2E22C7123FA83BC00C691E5 /* AppDelegate.swift */,
-				B2E22C7323FA83BC00C691E5 /* ContentView.swift */,
+				B20B6F9F23FB102B00C6DF2D /* Functions */,
+				B20B6F9E23FB101200C6DF2D /* Applicaton */,
+				B20B6F9D23FB100400C6DF2D /* Headers */,
 				B2E22C7523FA83BD00C691E5 /* Assets.xcassets */,
-				B2E22C7A23FA83BD00C691E5 /* Main.storyboard */,
 				B2E22C7D23FA83BD00C691E5 /* Info.plist */,
 				B2E22C7E23FA83BD00C691E5 /* Night_Shift.entitlements */,
 				B2E22C7723FA83BD00C691E5 /* Preview Content */,
@@ -266,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2E22C7423FA83BC00C691E5 /* ContentView.swift in Sources */,
 				B2E22C7223FA83BC00C691E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
