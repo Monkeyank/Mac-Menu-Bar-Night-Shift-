@@ -13,6 +13,9 @@
 		B2E22C7C23FA83BD00C691E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E22C7A23FA83BD00C691E5 /* Main.storyboard */; };
 		B2E22C8823FA83BD00C691E5 /* Night_ShiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22C8723FA83BD00C691E5 /* Night_ShiftTests.swift */; };
 		B2E22C9323FA83BD00C691E5 /* Night_ShiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22C9223FA83BD00C691E5 /* Night_ShiftUITests.swift */; };
+		B2E71AC223FC7B6800CB4C21 /* DimmerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E71AC123FC7B6800CB4C21 /* DimmerSliderView.swift */; };
+		B2E71AC423FC7B9D00CB4C21 /* NightShiftSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E71AC323FC7B9D00CB4C21 /* NightShiftSliderView.swift */; };
+		B2E71AC623FC7BDD00CB4C21 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E71AC523FC7BDD00CB4C21 /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		B2E22C8E23FA83BD00C691E5 /* Night-ShiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Night-ShiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E22C9223FA83BD00C691E5 /* Night_ShiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Night_ShiftUITests.swift; sourceTree = "<group>"; };
 		B2E22C9423FA83BD00C691E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E71AC123FC7B6800CB4C21 /* DimmerSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmerSliderView.swift; sourceTree = "<group>"; };
+		B2E71AC323FC7B9D00CB4C21 /* NightShiftSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShiftSliderView.swift; sourceTree = "<group>"; };
+		B2E71AC523FC7BDD00CB4C21 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,8 @@
 		B20B6F9E23FB101200C6DF2D /* Applicaton */ = {
 			isa = PBXGroup;
 			children = (
+				B2E71AC723FC7CA600CB4C21 /* Dimming */,
+				B2E71AB823FC799F00CB4C21 /* Menu */,
 				B20B6FA023FB105B00C6DF2D /* Main */,
 			);
 			path = Applicaton;
@@ -162,6 +170,23 @@
 				B2E22C9423FA83BD00C691E5 /* Info.plist */,
 			);
 			path = "Night-ShiftUITests";
+			sourceTree = "<group>";
+		};
+		B2E71AB823FC799F00CB4C21 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B2E71AC123FC7B6800CB4C21 /* DimmerSliderView.swift */,
+				B2E71AC323FC7B9D00CB4C21 /* NightShiftSliderView.swift */,
+				B2E71AC523FC7BDD00CB4C21 /* Status.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B2E71AC723FC7CA600CB4C21 /* Dimming */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dimming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E71AC423FC7B9D00CB4C21 /* NightShiftSliderView.swift in Sources */,
 				B2E22C7223FA83BC00C691E5 /* AppDelegate.swift in Sources */,
+				B2E71AC223FC7B6800CB4C21 /* DimmerSliderView.swift in Sources */,
+				B2E71AC623FC7BDD00CB4C21 /* Status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
