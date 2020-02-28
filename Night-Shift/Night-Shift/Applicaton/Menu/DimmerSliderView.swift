@@ -10,21 +10,21 @@ import Cocoa
 
 class DimmerSliderView: NSView {
     
-    @IBOutlet weak var dimmerSlider: NSSlider!
+    @IBOutlet weak var dimnessSlider: NSSlider!
     
     func setup() {
-        dimmerSlider.isContinuous = true
-        dimmerSlider.minValue = 0
-        dimmerSlider.maxValue = 0.85
+        dimnessSlider.isContinuous = true
+        dimnessSlider.minValue = 0
+        dimnessSlider.maxValue = 0.85
     }
     
-    @IBAction func dimmerSliderMoved(_ sender: NSSlider) {
+    @IBAction func dimnessSliderMoved(_ sender: NSSlider) {
         let event = NSApplication.shared.currentEvent
         
         if event?.type == .leftMouseUp {
-            Dimmer.previewDimmerrStrength(sender.floatValue)
+            Dimmer.previewDimnessStrength(sender.floatValue)
         } else {
-            Dimmer.dimmerStrength = sender.floatValue
+            Dimmer.dimnessStrength = sender.floatValue
         }
     }
     
