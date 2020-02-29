@@ -22,6 +22,7 @@
 		B259EC302408C7B2009E3D5F /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B259EC2F2408C7B2009E3D5F /* LaunchAtLogin.framework */; };
 		B259EC312408C7B2009E3D5F /* LaunchAtLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B259EC2F2408C7B2009E3D5F /* LaunchAtLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B259EC362408CB91009E3D5F /* CoreBrightness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B259EC352408CB91009E3D5F /* CoreBrightness.framework */; };
+		B2C8DAD6240A1EEB005644D5 /* CoreBrightness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B259EC352408CB91009E3D5F /* CoreBrightness.framework */; };
 		B2E22C7223FA83BC00C691E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22C7123FA83BC00C691E5 /* AppDelegate.swift */; };
 		B2E22C7623FA83BD00C691E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E22C7523FA83BD00C691E5 /* Assets.xcassets */; };
 		B2E22C7923FA83BD00C691E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E22C7823FA83BD00C691E5 /* Preview Assets.xcassets */; };
@@ -83,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B259EC362408CB91009E3D5F /* CoreBrightness.framework in Frameworks */,
+				B2C8DAD6240A1EEB005644D5 /* CoreBrightness.framework in Frameworks */,
 				B259EC302408C7B2009E3D5F /* LaunchAtLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

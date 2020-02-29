@@ -6,7 +6,7 @@
 //  Copyright © 2020 Ankith. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Foundation/Foundation.h>
 
 // Partial header for CBBlueLightClient in private CoreBrightness API
 @interface CBBlueLightClient : NSObject
