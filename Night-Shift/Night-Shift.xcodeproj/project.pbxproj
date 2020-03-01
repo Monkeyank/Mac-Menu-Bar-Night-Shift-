@@ -256,7 +256,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = Monkeyank;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					7DF1F9282356AFAA0041E9CA = {
 						CreatedOnToolsVersion = 11.1;
@@ -505,7 +505,7 @@
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/CoreBrightness.framework/Versions/A",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeyank.Night-Shift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.NightShift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Night-Shift/Headers/BridgingHeader.h";
@@ -540,7 +540,7 @@
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/CoreBrightness.framework/Versions/A",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeyank.Night-Shift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.NightShift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Night-Shift/Headers/BridgingHeader.h";
