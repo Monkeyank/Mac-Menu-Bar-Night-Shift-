@@ -7,276 +7,263 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B259EC0E2408BEC2009E3D5F /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC0D2408BEC2009E3D5F /* TimeViewController.swift */; };
-		B259EC112408BEE6009E3D5F /* TimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC102408BEE6009E3D5F /* TimeController.swift */; };
-		B259EC132408BEFC009E3D5F /* LinkText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC122408BEFC009E3D5F /* LinkText.swift */; };
-		B259EC172408BF57009E3D5F /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC162408BF57009E3D5F /* PreferencesController.swift */; };
-		B259EC192408BF64009E3D5F /* PreferenecesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC182408BF64009E3D5F /* PreferenecesViewController.swift */; };
-		B259EC1B2408BF9C009E3D5F /* Fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC1A2408BF9C009E3D5F /* Fade.swift */; };
-		B259EC1D2408C039009E3D5F /* DimmerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC1C2408C039009E3D5F /* DimmerController.swift */; };
-		B259EC202408C329009E3D5F /* Dimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC1F2408C329009E3D5F /* Dimmer.swift */; };
-		B259EC222408C333009E3D5F /* NightShift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC212408C333009E3D5F /* NightShift.swift */; };
-		B259EC242408C33F009E3D5F /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC232408C33F009E3D5F /* Preferences.swift */; };
-		B259EC262408C347009E3D5F /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259EC252408C347009E3D5F /* States.swift */; };
-		B259EC2A2408C4A4009E3D5F /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = B259EC292408C4A3009E3D5F /* Cartfile */; };
-		B259EC302408C7B2009E3D5F /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B259EC2F2408C7B2009E3D5F /* LaunchAtLogin.framework */; };
-		B259EC312408C7B2009E3D5F /* LaunchAtLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B259EC2F2408C7B2009E3D5F /* LaunchAtLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B259EC362408CB91009E3D5F /* CoreBrightness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B259EC352408CB91009E3D5F /* CoreBrightness.framework */; };
-		B2C8DAD6240A1EEB005644D5 /* CoreBrightness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B259EC352408CB91009E3D5F /* CoreBrightness.framework */; };
-		B2E22C7223FA83BC00C691E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22C7123FA83BC00C691E5 /* AppDelegate.swift */; };
-		B2E22C7623FA83BD00C691E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E22C7523FA83BD00C691E5 /* Assets.xcassets */; };
-		B2E22C7923FA83BD00C691E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E22C7823FA83BD00C691E5 /* Preview Assets.xcassets */; };
-		B2E22C7C23FA83BD00C691E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E22C7A23FA83BD00C691E5 /* Main.storyboard */; };
-		B2E71AC223FC7B6800CB4C21 /* DimmerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E71AC123FC7B6800CB4C21 /* DimmerSliderView.swift */; };
-		B2E71AC423FC7B9D00CB4C21 /* NightShiftSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E71AC323FC7B9D00CB4C21 /* NightShiftSliderView.swift */; };
-		B2E71AC623FC7BDD00CB4C21 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E71AC523FC7BDD00CB4C21 /* Status.swift */; };
+		7D1B5C302395340E0061D0CF /* CustomTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1B5C2F2395340E0061D0CF /* CustomTimeViewController.swift */; };
+		7D1B5C34239934440061D0CF /* Dimness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1B5C33239934440061D0CF /* Dimness.swift */; };
+		7D1B5C39239A39BB0061D0CF /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1B5C38239A39BB0061D0CF /* StateManager.swift */; };
+		7D3E6F2723A0902700D88A16 /* LaunchAtLogin.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D3E6F2623A0902700D88A16 /* LaunchAtLogin.framework.dSYM */; };
+		7D6A1022235F300100BB75EB /* CoreBrightness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6A1021235F300100BB75EB /* CoreBrightness.framework */; };
+		7D6EE5DA23A088C60011D52C /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 7D6EE5D923A088C60011D52C /* Cartfile */; };
+		7D6EE5DC23A088FB0011D52C /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6EE5DB23A088FB0011D52C /* LaunchAtLogin.framework */; };
+		7D6EE5DD23A088FB0011D52C /* LaunchAtLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6EE5DB23A088FB0011D52C /* LaunchAtLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D874589238BFA0F00A676F1 /* DimnessSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D874588238BFA0F00A676F1 /* DimnessSliderView.swift */; };
+		7D87458B238BFB5A00A676F1 /* DimnessWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87458A238BFB5A00A676F1 /* DimnessWindowController.swift */; };
+		7DA5B1F4238BAC8000FE0597 /* StatusMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5B1F3238BAC8000FE0597 /* StatusMenu.swift */; };
+		7DA5B1F6238BAD6F00FE0597 /* NightShiftSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5B1F5238BAD6F00FE0597 /* NightShiftSliderView.swift */; };
+		7DA5B1F9238BAF9500FE0597 /* NightShift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5B1F8238BAF9500FE0597 /* NightShift.swift */; };
+		7DF1F92D2356AFAA0041E9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF1F92C2356AFAA0041E9CA /* AppDelegate.swift */; };
+		7DF1F9312356AFB00041E9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF1F9302356AFB00041E9CA /* Assets.xcassets */; };
+		7DF1F9342356AFB00041E9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF1F9322356AFB00041E9CA /* Main.storyboard */; };
+		7DF36EA5239E5377000CFB5A /* CustomTimeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF36EA4239E5377000CFB5A /* CustomTimeWindowController.swift */; };
+		7DF36EA7239E730C000CFB5A /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF36EA6239E730C000CFB5A /* Preferences.swift */; };
+		7DF36EAA239EFB29000CFB5A /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF36EA9239EFB29000CFB5A /* PreferencesViewController.swift */; };
+		7DF36EAC239F5793000CFB5A /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF36EAB239F5793000CFB5A /* PreferencesWindowController.swift */; };
+		B2EF2F00240B2BB1004B27F7 /* Fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF2EFF240B2BB1004B27F7 /* Fade.swift */; };
+		B2EF2F02240B2CDA004B27F7 /* LinkText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF2F01240B2CDA004B27F7 /* LinkText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B259EC322408C7B2009E3D5F /* Embed Frameworks */ = {
+		7D568993235EFE4700A51FC5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B259EC312408C7B2009E3D5F /* LaunchAtLogin.framework in Embed Frameworks */,
+				7D6EE5DD23A088FB0011D52C /* LaunchAtLogin.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6EE5DE23A089070011D52C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				7D3E6F2723A0902700D88A16 /* LaunchAtLogin.framework.dSYM in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B259EC0D2408BEC2009E3D5F /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
-		B259EC102408BEE6009E3D5F /* TimeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeController.swift; sourceTree = "<group>"; };
-		B259EC122408BEFC009E3D5F /* LinkText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkText.swift; sourceTree = "<group>"; };
-		B259EC162408BF57009E3D5F /* PreferencesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesController.swift; sourceTree = "<group>"; };
-		B259EC182408BF64009E3D5F /* PreferenecesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenecesViewController.swift; sourceTree = "<group>"; };
-		B259EC1A2408BF9C009E3D5F /* Fade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fade.swift; sourceTree = "<group>"; };
-		B259EC1C2408C039009E3D5F /* DimmerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmerController.swift; sourceTree = "<group>"; };
-		B259EC1F2408C329009E3D5F /* Dimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimmer.swift; sourceTree = "<group>"; };
-		B259EC212408C333009E3D5F /* NightShift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShift.swift; sourceTree = "<group>"; };
-		B259EC232408C33F009E3D5F /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
-		B259EC252408C347009E3D5F /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
-		B259EC292408C4A3009E3D5F /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		B259EC2F2408C7B2009E3D5F /* LaunchAtLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LaunchAtLogin.framework; path = Carthage/Build/Mac/LaunchAtLogin.framework; sourceTree = "<group>"; };
-		B259EC332408C7B7009E3D5F /* LaunchAtLogin.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = LaunchAtLogin.framework.dSYM; path = Carthage/Build/Mac/LaunchAtLogin.framework.dSYM; sourceTree = "<group>"; };
-		B259EC352408CB91009E3D5F /* CoreBrightness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBrightness.framework; path = ../../../../../System/Library/PrivateFrameworks/CoreBrightness.framework; sourceTree = "<group>"; };
-		B259EC3E2408CD1E009E3D5F /* CBBlueLightClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBBlueLightClient.h; sourceTree = "<group>"; };
-		B259EC3F2408D10E009E3D5F /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
-		B2E22C6E23FA83BC00C691E5 /* Night-Shift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night-Shift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2E22C7123FA83BC00C691E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2E22C7523FA83BD00C691E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2E22C7823FA83BD00C691E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B2E22C7B23FA83BD00C691E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2E22C7D23FA83BD00C691E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2E22C7E23FA83BD00C691E5 /* Night_Shift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Night_Shift.entitlements; sourceTree = "<group>"; };
-		B2E22C9223FA83BD00C691E5 /* Night_ShiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Night_ShiftUITests.swift; sourceTree = "<group>"; };
-		B2E22C9423FA83BD00C691E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2E71AC123FC7B6800CB4C21 /* DimmerSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmerSliderView.swift; sourceTree = "<group>"; };
-		B2E71AC323FC7B9D00CB4C21 /* NightShiftSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShiftSliderView.swift; sourceTree = "<group>"; };
-		B2E71AC523FC7BDD00CB4C21 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		7D1B5C2F2395340E0061D0CF /* CustomTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimeViewController.swift; sourceTree = "<group>"; };
+		7D1B5C33239934440061D0CF /* Dimness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimness.swift; sourceTree = "<group>"; };
+		7D1B5C38239A39BB0061D0CF /* StateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
+		7D3E6F2623A0902700D88A16 /* LaunchAtLogin.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = LaunchAtLogin.framework.dSYM; path = Carthage/Build/Mac/LaunchAtLogin.framework.dSYM; sourceTree = "<group>"; };
+		7D56898C235EFC5600A51FC5 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		7D56898D235EFCAE00A51FC5 /* CBBlueLightClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBBlueLightClient.h; sourceTree = "<group>"; };
+		7D6A1021235F300100BB75EB /* CoreBrightness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBrightness.framework; path = ../../../../../System/Library/PrivateFrameworks/CoreBrightness.framework; sourceTree = "<group>"; };
+		7D6EE5D923A088C60011D52C /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		7D6EE5DB23A088FB0011D52C /* LaunchAtLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LaunchAtLogin.framework; path = Carthage/Build/Mac/LaunchAtLogin.framework; sourceTree = "<group>"; };
+		7D874588238BFA0F00A676F1 /* DimnessSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimnessSliderView.swift; sourceTree = "<group>"; };
+		7D87458A238BFB5A00A676F1 /* DimnessWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimnessWindowController.swift; sourceTree = "<group>"; };
+		7DA5B1F3238BAC8000FE0597 /* StatusMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenu.swift; sourceTree = "<group>"; };
+		7DA5B1F5238BAD6F00FE0597 /* NightShiftSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShiftSliderView.swift; sourceTree = "<group>"; };
+		7DA5B1F8238BAF9500FE0597 /* NightShift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShift.swift; sourceTree = "<group>"; };
+		7DF1F9292356AFAA0041E9CA /* Night-Shift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night-Shift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF1F92C2356AFAA0041E9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DF1F9302356AFB00041E9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DF1F9332356AFB00041E9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DF1F9352356AFB00041E9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF1F9362356AFB00041E9CA /* Night-Shift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Night-Shift.entitlements"; sourceTree = "<group>"; };
+		7DF36EA4239E5377000CFB5A /* CustomTimeWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimeWindowController.swift; sourceTree = "<group>"; };
+		7DF36EA6239E730C000CFB5A /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		7DF36EA9239EFB29000CFB5A /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		7DF36EAB239F5793000CFB5A /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		B2EF2EFF240B2BB1004B27F7 /* Fade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fade.swift; sourceTree = "<group>"; };
+		B2EF2F01240B2CDA004B27F7 /* LinkText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B2E22C6B23FA83BC00C691E5 /* Frameworks */ = {
+		7DF1F9262356AFAA0041E9CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B259EC362408CB91009E3D5F /* CoreBrightness.framework in Frameworks */,
-				B2C8DAD6240A1EEB005644D5 /* CoreBrightness.framework in Frameworks */,
-				B259EC302408C7B2009E3D5F /* LaunchAtLogin.framework in Frameworks */,
+				7D6EE5DC23A088FB0011D52C /* LaunchAtLogin.framework in Frameworks */,
+				7D6A1022235F300100BB75EB /* CoreBrightness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B20B6F9E23FB101200C6DF2D /* Applicaton */ = {
+		7D56898E235EFD7D00A51FC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B259EC152408BF45009E3D5F /* Extensions */,
-				B259EC142408BF3D009E3D5F /* Preferences */,
-				B2E71AC723FC7CA600CB4C21 /* Dimming */,
-				B2E71AB823FC799F00CB4C21 /* Menu */,
-				B20B6FA023FB105B00C6DF2D /* Main */,
-				B259EC0F2408BECE009E3D5F /* Time */,
-			);
-			path = Applicaton;
-			sourceTree = "<group>";
-		};
-		B20B6F9F23FB102B00C6DF2D /* Functions */ = {
-			isa = PBXGroup;
-			children = (
-				B259EC1F2408C329009E3D5F /* Dimmer.swift */,
-				B259EC212408C333009E3D5F /* NightShift.swift */,
-				B259EC232408C33F009E3D5F /* Preferences.swift */,
-				B259EC252408C347009E3D5F /* States.swift */,
-			);
-			path = Functions;
-			sourceTree = "<group>";
-		};
-		B20B6FA023FB105B00C6DF2D /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				B2E22C7123FA83BC00C691E5 /* AppDelegate.swift */,
-				B2E22C7A23FA83BD00C691E5 /* Main.storyboard */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		B259EC0F2408BECE009E3D5F /* Time */ = {
-			isa = PBXGroup;
-			children = (
-				B259EC0D2408BEC2009E3D5F /* TimeViewController.swift */,
-				B259EC102408BEE6009E3D5F /* TimeController.swift */,
-				B259EC122408BEFC009E3D5F /* LinkText.swift */,
-			);
-			path = Time;
-			sourceTree = "<group>";
-		};
-		B259EC142408BF3D009E3D5F /* Preferences */ = {
-			isa = PBXGroup;
-			children = (
-				B259EC162408BF57009E3D5F /* PreferencesController.swift */,
-				B259EC182408BF64009E3D5F /* PreferenecesViewController.swift */,
-			);
-			path = Preferences;
-			sourceTree = "<group>";
-		};
-		B259EC152408BF45009E3D5F /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				B259EC1A2408BF9C009E3D5F /* Fade.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		B259EC2E2408C7B2009E3D5F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B259EC352408CB91009E3D5F /* CoreBrightness.framework */,
-				B259EC332408C7B7009E3D5F /* LaunchAtLogin.framework.dSYM */,
-				B259EC2F2408C7B2009E3D5F /* LaunchAtLogin.framework */,
+				7D3E6F2623A0902700D88A16 /* LaunchAtLogin.framework.dSYM */,
+				7D6EE5DB23A088FB0011D52C /* LaunchAtLogin.framework */,
+				7D6A1021235F300100BB75EB /* CoreBrightness.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B259EC3D2408CD0B009E3D5F /* Header */ = {
+		7D6A1023235FADBD00BB75EB /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				B259EC3E2408CD1E009E3D5F /* CBBlueLightClient.h */,
-				B259EC3F2408D10E009E3D5F /* BridgingHeader.h */,
+				7D56898C235EFC5600A51FC5 /* BridgingHeader.h */,
+				7D56898D235EFCAE00A51FC5 /* CBBlueLightClient.h */,
 			);
-			path = Header;
+			path = Headers;
 			sourceTree = "<group>";
 		};
-		B2E22C6523FA83BC00C691E5 = {
+		7DA5B1F7238BAF6F00FE0597 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B259EC292408C4A3009E3D5F /* Cartfile */,
-				B2E22C7023FA83BC00C691E5 /* Night-Shift */,
-				B2E22C9123FA83BD00C691E5 /* Night-ShiftUITests */,
-				B2E22C6F23FA83BC00C691E5 /* Products */,
-				B259EC2E2408C7B2009E3D5F /* Frameworks */,
+				7D1B5C33239934440061D0CF /* Dimness.swift */,
+				7DA5B1F8238BAF9500FE0597 /* NightShift.swift */,
+				7DF36EA6239E730C000CFB5A /* Preferences.swift */,
+				7D1B5C38239A39BB0061D0CF /* StateManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DF1F9202356AFA90041E9CA = {
+			isa = PBXGroup;
+			children = (
+				7DF1F92B2356AFAA0041E9CA /* Night-Shift */,
+				7D6EE5D923A088C60011D52C /* Cartfile */,
+				7DF1F92A2356AFAA0041E9CA /* Products */,
+				7D56898E235EFD7D00A51FC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B2E22C6F23FA83BC00C691E5 /* Products */ = {
+		7DF1F92A2356AFAA0041E9CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2E22C6E23FA83BC00C691E5 /* Night-Shift.app */,
+				7DF1F9292356AFAA0041E9CA /* Night-Shift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2E22C7023FA83BC00C691E5 /* Night-Shift */ = {
+		7DF1F92B2356AFAA0041E9CA /* Night-Shift */ = {
 			isa = PBXGroup;
 			children = (
-				B259EC3D2408CD0B009E3D5F /* Header */,
-				B20B6F9F23FB102B00C6DF2D /* Functions */,
-				B20B6F9E23FB101200C6DF2D /* Applicaton */,
-				B2E22C7523FA83BD00C691E5 /* Assets.xcassets */,
-				B2E22C7D23FA83BD00C691E5 /* Info.plist */,
-				B2E22C7E23FA83BD00C691E5 /* Night_Shift.entitlements */,
-				B2E22C7723FA83BD00C691E5 /* Preview Content */,
+				7D6A1023235FADBD00BB75EB /* Headers */,
+				7DA5B1F7238BAF6F00FE0597 /* Models */,
+				7DF36E9E239E4FA9000CFB5A /* Application */,
+				7DF1F9352356AFB00041E9CA /* Info.plist */,
+				7DF1F9362356AFB00041E9CA /* Night-Shift.entitlements */,
+				7DF1F9302356AFB00041E9CA /* Assets.xcassets */,
 			);
 			path = "Night-Shift";
 			sourceTree = "<group>";
 		};
-		B2E22C7723FA83BD00C691E5 /* Preview Content */ = {
+		7DF36E9E239E4FA9000CFB5A /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				B2E22C7823FA83BD00C691E5 /* Preview Assets.xcassets */,
+				7DF36E9F239E4FD1000CFB5A /* Main */,
+				7DF36EA2239E5053000CFB5A /* Menu */,
+				7DF36EA1239E501F000CFB5A /* Dimness */,
+				7DF36EA0239E4FF8000CFB5A /* Custom Time */,
+				7DF36EA8239EFAEB000CFB5A /* Preferences */,
+				7DF36EA3239E50A6000CFB5A /* Extensions */,
 			);
-			path = "Preview Content";
+			path = Application;
 			sourceTree = "<group>";
 		};
-		B2E22C9123FA83BD00C691E5 /* Night-ShiftUITests */ = {
+		7DF36E9F239E4FD1000CFB5A /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				B2E22C9223FA83BD00C691E5 /* Night_ShiftUITests.swift */,
-				B2E22C9423FA83BD00C691E5 /* Info.plist */,
+				7DF1F92C2356AFAA0041E9CA /* AppDelegate.swift */,
+				7DF1F9322356AFB00041E9CA /* Main.storyboard */,
 			);
-			path = "Night-ShiftUITests";
+			path = Main;
 			sourceTree = "<group>";
 		};
-		B2E71AB823FC799F00CB4C21 /* Menu */ = {
+		7DF36EA0239E4FF8000CFB5A /* Custom Time */ = {
 			isa = PBXGroup;
 			children = (
-				B2E71AC123FC7B6800CB4C21 /* DimmerSliderView.swift */,
-				B2E71AC323FC7B9D00CB4C21 /* NightShiftSliderView.swift */,
-				B2E71AC523FC7BDD00CB4C21 /* Status.swift */,
+				7D1B5C2F2395340E0061D0CF /* CustomTimeViewController.swift */,
+				7DF36EA4239E5377000CFB5A /* CustomTimeWindowController.swift */,
+				B2EF2F01240B2CDA004B27F7 /* LinkText.swift */,
+			);
+			path = "Custom Time";
+			sourceTree = "<group>";
+		};
+		7DF36EA1239E501F000CFB5A /* Dimness */ = {
+			isa = PBXGroup;
+			children = (
+				7D87458A238BFB5A00A676F1 /* DimnessWindowController.swift */,
+			);
+			path = Dimness;
+			sourceTree = "<group>";
+		};
+		7DF36EA2239E5053000CFB5A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7D874588238BFA0F00A676F1 /* DimnessSliderView.swift */,
+				7DA5B1F5238BAD6F00FE0597 /* NightShiftSliderView.swift */,
+				7DA5B1F3238BAC8000FE0597 /* StatusMenu.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
 		};
-		B2E71AC723FC7CA600CB4C21 /* Dimming */ = {
+		7DF36EA3239E50A6000CFB5A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B259EC1C2408C039009E3D5F /* DimmerController.swift */,
+				B2EF2EFF240B2BB1004B27F7 /* Fade.swift */,
 			);
-			path = Dimming;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7DF36EA8239EFAEB000CFB5A /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				7DF36EAB239F5793000CFB5A /* PreferencesWindowController.swift */,
+				7DF36EA9239EFB29000CFB5A /* PreferencesViewController.swift */,
+			);
+			path = Preferences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2E22C6D23FA83BC00C691E5 /* Night-Shift */ = {
+		7DF1F9282356AFAA0041E9CA /* Night-Shift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2E22C9723FA83BD00C691E5 /* Build configuration list for PBXNativeTarget "Night-Shift" */;
+			buildConfigurationList = 7DF1F9392356AFB00041E9CA /* Build configuration list for PBXNativeTarget "Night-Shift" */;
 			buildPhases = (
-				B2E22C6A23FA83BC00C691E5 /* Sources */,
-				B2E22C6B23FA83BC00C691E5 /* Frameworks */,
-				B2E22C6C23FA83BC00C691E5 /* Resources */,
-				B259EC2D2408C6BD009E3D5F /* ShellScript */,
-				B259EC322408C7B2009E3D5F /* Embed Frameworks */,
+				7DF1F9252356AFAA0041E9CA /* Sources */,
+				7DF1F9262356AFAA0041E9CA /* Frameworks */,
+				7DF1F9272356AFAA0041E9CA /* Resources */,
+				7D568993235EFE4700A51FC5 /* Embed Frameworks */,
+				7D6EE5DE23A089070011D52C /* CopyFiles */,
+				7D6EE5E223A089F00011D52C /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Night-Shift";
-			productName = "Night-Shift";
-			productReference = B2E22C6E23FA83BC00C691E5 /* Night-Shift.app */;
+			productName = Nocturnal;
+			productReference = 7DF1F9292356AFAA0041E9CA /* Night-Shift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B2E22C6623FA83BC00C691E5 /* Project object */ = {
+		7DF1F9212356AFA90041E9CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = Ankith;
+				ORGANIZATIONNAME = Monkeyank;
 				TargetAttributes = {
-					B2E22C6D23FA83BC00C691E5 = {
+					7DF1F9282356AFAA0041E9CA = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = B2E22C6923FA83BC00C691E5 /* Build configuration list for PBXProject "Night-Shift" */;
+			buildConfigurationList = 7DF1F9242356AFA90041E9CA /* Build configuration list for PBXProject "Night-Shift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,32 +271,31 @@
 				en,
 				Base,
 			);
-			mainGroup = B2E22C6523FA83BC00C691E5;
-			productRefGroup = B2E22C6F23FA83BC00C691E5 /* Products */;
+			mainGroup = 7DF1F9202356AFA90041E9CA;
+			productRefGroup = 7DF1F92A2356AFAA0041E9CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2E22C6D23FA83BC00C691E5 /* Night-Shift */,
+				7DF1F9282356AFAA0041E9CA /* Night-Shift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B2E22C6C23FA83BC00C691E5 /* Resources */ = {
+		7DF1F9272356AFAA0041E9CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2E22C7C23FA83BD00C691E5 /* Main.storyboard in Resources */,
-				B2E22C7923FA83BD00C691E5 /* Preview Assets.xcassets in Resources */,
-				B259EC2A2408C4A4009E3D5F /* Cartfile in Resources */,
-				B2E22C7623FA83BD00C691E5 /* Assets.xcassets in Resources */,
+				7D6EE5DA23A088C60011D52C /* Cartfile in Resources */,
+				7DF1F9312356AFB00041E9CA /* Assets.xcassets in Resources */,
+				7DF1F9342356AFB00041E9CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B259EC2D2408C6BD009E3D5F /* ShellScript */ = {
+		7D6EE5E223A089F00011D52C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,35 +315,35 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B2E22C6A23FA83BC00C691E5 /* Sources */ = {
+		7DF1F9252356AFAA0041E9CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B259EC262408C347009E3D5F /* States.swift in Sources */,
-				B259EC222408C333009E3D5F /* NightShift.swift in Sources */,
-				B2E71AC423FC7B9D00CB4C21 /* NightShiftSliderView.swift in Sources */,
-				B259EC0E2408BEC2009E3D5F /* TimeViewController.swift in Sources */,
-				B259EC112408BEE6009E3D5F /* TimeController.swift in Sources */,
-				B2E22C7223FA83BC00C691E5 /* AppDelegate.swift in Sources */,
-				B259EC172408BF57009E3D5F /* PreferencesController.swift in Sources */,
-				B259EC132408BEFC009E3D5F /* LinkText.swift in Sources */,
-				B259EC192408BF64009E3D5F /* PreferenecesViewController.swift in Sources */,
-				B259EC242408C33F009E3D5F /* Preferences.swift in Sources */,
-				B259EC1D2408C039009E3D5F /* DimmerController.swift in Sources */,
-				B259EC1B2408BF9C009E3D5F /* Fade.swift in Sources */,
-				B259EC202408C329009E3D5F /* Dimmer.swift in Sources */,
-				B2E71AC223FC7B6800CB4C21 /* DimmerSliderView.swift in Sources */,
-				B2E71AC623FC7BDD00CB4C21 /* Status.swift in Sources */,
+				7DA5B1F4238BAC8000FE0597 /* StatusMenu.swift in Sources */,
+				7D87458B238BFB5A00A676F1 /* DimnessWindowController.swift in Sources */,
+				7DF36EA7239E730C000CFB5A /* Preferences.swift in Sources */,
+				7D1B5C302395340E0061D0CF /* CustomTimeViewController.swift in Sources */,
+				7DF36EAC239F5793000CFB5A /* PreferencesWindowController.swift in Sources */,
+				7DF36EA5239E5377000CFB5A /* CustomTimeWindowController.swift in Sources */,
+				7D1B5C39239A39BB0061D0CF /* StateManager.swift in Sources */,
+				B2EF2F00240B2BB1004B27F7 /* Fade.swift in Sources */,
+				7DF36EAA239EFB29000CFB5A /* PreferencesViewController.swift in Sources */,
+				7D1B5C34239934440061D0CF /* Dimness.swift in Sources */,
+				7DA5B1F9238BAF9500FE0597 /* NightShift.swift in Sources */,
+				B2EF2F02240B2CDA004B27F7 /* LinkText.swift in Sources */,
+				7DF1F92D2356AFAA0041E9CA /* AppDelegate.swift in Sources */,
+				7DA5B1F6238BAD6F00FE0597 /* NightShiftSliderView.swift in Sources */,
+				7D874589238BFA0F00A676F1 /* DimnessSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B2E22C7A23FA83BD00C691E5 /* Main.storyboard */ = {
+		7DF1F9322356AFB00041E9CA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B2E22C7B23FA83BD00C691E5 /* Base */,
+				7DF1F9332356AFB00041E9CA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -365,7 +351,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B2E22C9523FA83BD00C691E5 /* Debug */ = {
+		7DF1F9372356AFB00041E9CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,6 +387,12 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NightShift",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -421,11 +413,12 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Night-Shift/BridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		B2E22C9623FA83BD00C691E5 /* Release */ = {
+		7DF1F9382356AFB00041E9CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -461,6 +454,12 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NightShift",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -474,23 +473,27 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Night-Shift/BridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		B2E22C9823FA83BD00C691E5 /* Debug */ = {
+		7DF1F93A2356AFB00041E9CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Night-Shift/Night_Shift.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Night-Shift/Night-Shift.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "Night-Shift/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 3U3SNC9LRZ;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NightShift",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Night-Shift/Info.plist";
@@ -498,30 +501,34 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "monkeyank.Night-Shift";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/CoreBrightness.framework/Versions/A",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeyank.Night-Shift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Night-Shift/Headers/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		B2E22C9923FA83BD00C691E5 /* Release */ = {
+		7DF1F93B2356AFB00041E9CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Night-Shift/Night_Shift.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Night-Shift/Night-Shift.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "Night-Shift/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 3U3SNC9LRZ;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NightShift",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Night-Shift/Info.plist";
@@ -529,39 +536,40 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "monkeyank.Night-Shift";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/CoreBrightness.framework/Versions/A",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeyank.Night-Shift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Night-Shift/Headers/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2E22C6923FA83BC00C691E5 /* Build configuration list for PBXProject "Night-Shift" */ = {
+		7DF1F9242356AFA90041E9CA /* Build configuration list for PBXProject "Night-Shift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2E22C9523FA83BD00C691E5 /* Debug */,
-				B2E22C9623FA83BD00C691E5 /* Release */,
+				7DF1F9372356AFB00041E9CA /* Debug */,
+				7DF1F9382356AFB00041E9CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2E22C9723FA83BD00C691E5 /* Build configuration list for PBXNativeTarget "Night-Shift" */ = {
+		7DF1F9392356AFB00041E9CA /* Build configuration list for PBXNativeTarget "Night-Shift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2E22C9823FA83BD00C691E5 /* Debug */,
-				B2E22C9923FA83BD00C691E5 /* Release */,
+				7DF1F93A2356AFB00041E9CA /* Debug */,
+				7DF1F93B2356AFB00041E9CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B2E22C6623FA83BC00C691E5 /* Project object */;
+	rootObject = 7DF1F9212356AFA90041E9CA /* Project object */;
 }
